@@ -18,12 +18,14 @@ var connector = new builder.ChatConnector({
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
-server.post('/', connector.listen());
+server.post('/', function(req, res) {
+    return "Hello World!";
+});
 
 //=========================================================
 // Bots Dialogs
 //=========================================================
 
 bot.dialog('/', function (session) {
-    session.send("Hello World");
+    session.send("Hello, my name is shadowman.  I can help you create a support case.");
 });
