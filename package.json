@@ -1,0 +1,29 @@
+{
+  "name": "redhackdaybot",
+  "version": "0.0.1",
+  "description": "A bot for Red Hack Day",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdalbo92/RedHackDayBot.git"
+  },
+  "keywords": [
+    "Bot",
+    "Red",
+    "Hat",
+    "SDK"
+  ],
+  "author": "Tom Dalbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdalbo92/RedHackDayBot/issues"
+  },
+  "homepage": "https://github.com/tdalbo92/RedHackDayBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "restify": "^4.1.1"
+  }
+}
